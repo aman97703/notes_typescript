@@ -1,0 +1,23 @@
+.note_root{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.note {
+  border: 1px solid grey;
+  padding: 0.5rem;
+  font-size: 2rem;
+  color: #333;
+  height: 5rem;
+  border-radius: 0.5rem;
+  background-color: greenyellow;
+}
+.high {
+  background-color: coral;
+}
+.medium {
+  background-color: rgb(251, 243, 152);
+}
+.low {
+  background-color: greenyellow;
+}
